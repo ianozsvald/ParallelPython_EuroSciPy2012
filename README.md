@@ -23,9 +23,9 @@ parallelpython
 
 Parallel Python 1.6.2 via: http://www.parallelpython.com/ and test the Python bindings using:
 
-```>>> import pp
-```>>> pp.version
-```'1.6.1' # the latest version is 1.6.1
+    >>> import pp
+    >>> pp.version
+    '1.6.1' # the latest version is 1.6.1
 
 Recent version of gearman 2.x, I'm using
 gearman 0.14-1 # on ubuntu 11.04
