@@ -16,14 +16,13 @@ multiprocessing
 ---------------
 The multiprocessing module is built into CPython.
 
-   >>> import multiprocessing
+    >>> import multiprocessing
 
 parallelpython
 --------------
 
 Parallel Python 1.6.2 via: http://www.parallelpython.com/ and test the Python bindings using:
 
-````
     >>> import pp
     >>> pp.version
     '1.6.1' # the latest version is 1.6.1
