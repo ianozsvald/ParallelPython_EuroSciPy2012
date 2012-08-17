@@ -4,7 +4,13 @@ ParallelPython_EuroSciPy2012
 Starting code &amp; solutions for EuroSciPy Paralllel Python 2 hour tutorial
 http://www.euroscipy.org/talk/6612
 
-I'm using CPython ('normal' python) 2.7. We'll use:
+If you run into difficulties installing these prerequisites then get in contact with me (ian AT ianozsvald COM) and I'll try to help. I can't offer support (except in the moral sense) with Windows & Mac, I'm an Ubuntu user. If you have trouble I strongly suggest you use VirtualBox to setup a virtual Ubuntu 12.04 (or 11.04 like mine) environment. I'll attempt to bring a VirtualBox environment on a USB stick but it'll be over 5GB and hard to transfer before the class.
+
+You are responsible for having a working environment in time for the class, we won't be installing anything once the class starts.
+
+If you don't have a working environment then you can buddy-up with someone else.
+
+I'm using CPython 2.7 ('normal' python). We'll use:
 * multiprocessing
 * parallelpython
 * picloud
@@ -21,6 +27,15 @@ The multiprocessing module is built into CPython.
     [GCC 4.6.1] on linux2
     Type "help", "copyright", "credits" or "license" for more information.
     >>> import multiprocessing
+
+PIL (python imaging library)
+----------------------------
+
+You probably have the Python Imaging Library already, if not you can get it here for Windows and Linux http://www.pythonware.com/products/pil/ and try the Mac-friendly fork here http://pypi.python.org/pypi/Pillow/
+
+    >>>> import Image # if it impo
+    >>>> im=Image.new('RGB', (100,100))
+    >>>> im.show() # pops up a 100x100 pixel empty image
 
 parallelpython
 --------------
@@ -61,7 +76,7 @@ Install the cloud Python binding via: http://docs.picloud.com/quickstart.html
     >>> cloud.__version__
     >>> '2.5.5'
 
-For picloud I have made an account but you ought to make your own:
+For picloud I have made an account which you can share but you ought to make your own:
 
     u:ianozsvald+euroscipy2012@gmail.com
     p:euroscipy2012
