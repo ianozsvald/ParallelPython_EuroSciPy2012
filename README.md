@@ -31,7 +31,7 @@ Parallel Python 1.6.2 via: http://www.parallelpython.com/ and test the Python bi
 gearman
 -------
 
-Recent version of gearman 2.x, I'm using
+Recent version of gearman 2.x, via http://gearman.org/ I'm using
 
     gearman 0.14-1 # on ubuntu 11.04
 
@@ -68,7 +68,7 @@ Note that there's a limit of 20 computer hours for free per month (and there's n
 ipython cluster
 ---------------
 
-IPython with cluster support, I installed mine via apt-get in Ubuntu. As long as the ```ipcluster``` command works then you should be fine:
+IPython with cluster support http://ipython.org/ , I installed mine via apt-get in Ubuntu. As long as the ```ipcluster``` command works then you should be fine:
 
     $ ipython
     Python 2.7.3 (default, Apr 20 2012, 22:39:59) 
