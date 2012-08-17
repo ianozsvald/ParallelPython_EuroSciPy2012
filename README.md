@@ -67,7 +67,7 @@ Note that there's a limit of 20 computer hours for free per month (and there's n
 ipython cluster
 ---------------
 
-IPython with cluster support:
+IPython with cluster support, I installed mine via apt-get in Ubuntu. As long as the ```ipcluster``` command works then you should be fine:
 
     $ ipython
     Python 2.7.3 (default, Apr 20 2012, 22:39:59) 
