@@ -10,6 +10,8 @@ You are responsible for having a working environment in time for the class, we w
 
 If you don't have a working environment then you can buddy-up with someone else.
 
+NOTE in the class we'll start with ````serial_python.py```` and ````multiproce.py```` and adapt the code to cover the following tools. I've included a ````solutions\```` directory but don't go peeking - that's only in case we run out of time or you need to catch-up.
+
 I'm using CPython 2.7 ('normal' python). We'll use:
 * multiprocessing
 * parallelpython
