@@ -16,6 +16,10 @@ multiprocessing
 ---------------
 The multiprocessing module is built into CPython.
 
+    $ python
+    Python 2.7.2+ (default, Oct  4 2011, 20:06:09) 
+    [GCC 4.6.1] on linux2
+    Type "help", "copyright", "credits" or "license" for more information.
     >>> import multiprocessing
 
 parallelpython
