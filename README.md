@@ -2,6 +2,7 @@ ParallelPython_EuroSciPy2012
 ============================
 
 Starting code &amp; solutions for EuroSciPy Paralllel Python 2 hour tutorial
+http://www.euroscipy.org/talk/6612
 
 I'm using CPython ('normal' python) 2.7. We'll use:
 * multiprocessing
@@ -11,8 +12,10 @@ I'm using CPython ('normal' python) 2.7. We'll use:
 * ipython cluster
 * PIL (Python Imaging Library) - optional but used for visualisation of Mandelbrot set
 
+multiprocessing
+---------------
 The multiprocessing module is built into CPython.
->>> import multiprocessing
+```>>> import multiprocessing
 
 Parallel Python 1.6.2 via:
 http://www.parallelpython.com/
