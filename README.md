@@ -15,14 +15,17 @@ I'm using CPython ('normal' python) 2.7. We'll use:
 multiprocessing
 ---------------
 The multiprocessing module is built into CPython.
+
 ```>>> import multiprocessing
 
-Parallel Python 1.6.2 via:
-http://www.parallelpython.com/
-and test the Python bindings using:
->>> import pp
->>> pp.version
-'1.6.1' # the latest version is 1.6.1
+parallelpython
+--------------
+
+Parallel Python 1.6.2 via: http://www.parallelpython.com/ and test the Python bindings using:
+
+```>>> import pp
+```>>> pp.version
+```'1.6.1' # the latest version is 1.6.1
 
 Recent version of gearman 2.x, I'm using
 gearman 0.14-1 # on ubuntu 11.04
