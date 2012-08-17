@@ -16,7 +16,7 @@ multiprocessing
 ---------------
 The multiprocessing module is built into CPython.
 
-```>>> import multiprocessing
+   >>> import multiprocessing
 
 parallelpython
 --------------
@@ -27,38 +27,52 @@ Parallel Python 1.6.2 via: http://www.parallelpython.com/ and test the Python bi
     >>> pp.version
     '1.6.1' # the latest version is 1.6.1
 
+gearman
+-------
+
 Recent version of gearman 2.x, I'm using
-gearman 0.14-1 # on ubuntu 11.04
+
+    gearman 0.14-1 # on ubuntu 11.04
+
 with Python bindings
->>> import gearman
->>> gearman.__version__
-'2.0.2'
+
+    >>> import gearman
+    >>> gearman.__version__
+    '2.0.2'
+
 and at the command line test:
-terminal1$ gearman -w -f test wc # will run this worker forever
-terminal2$ gearman -f test "Hello World" # posts a 'test' job which returns
+
+    terminal1$ gearman -w -f test wc # will run this worker forever
+    terminal2$ gearman -f test "Hello World" # posts a 'test' job which returns
       0       2      11 # this is the wc (word-count) output for the test string
+
 now you can close these two terminals - this has tested that gearman is running ok
 
+picloud
+-------
 
+Install the cloud Python binding via: http://docs.picloud.com/quickstart.html
 
-
-picloud:
->>> import cloud
->>> cloud.__version__
->>> '2.5.5'
+    >>> import cloud
+    >>> cloud.__version__
+    >>> '2.5.5'
 
 For picloud I have made an account but you ought to make your own:
-u:ianozsvald+euroscipy2012@gmail.com
-p:euroscipy2012
-Note that there's a limit of 20 computer hours for free per month (and there's no Credit Card on file!), we're unlikely to run out in the class but it makes sense to register for a free account. Setup notes:
-http://docs.picloud.com/quickstart.html
-If you use my login then just use the existing 4569 API key (it won't matter if we have redundant keys in this test account).
+
+    u:ianozsvald+euroscipy2012@gmail.com
+    p:euroscipy2012
+
+Note that there's a limit of 20 computer hours for free per month (and there's no Credit Card on file!), we're unlikely to run out in the class but it makes sense to register for a free account. If you use my login then just use the existing 4569 API key (it won't matter if we have redundant keys in this test account).
+
+ipython cluster
+---------------
 
 IPython with cluster support:
-$ ipython
-Python 2.7.3 (default, Apr 20 2012, 22:39:59) 
-Type "copyright", "credits" or "license" for more information.
-IPython 0.13 -- An enhanced Interactive Python.
 
-$ ipcluster
--> shows help message
+    $ ipython
+    Python 2.7.3 (default, Apr 20 2012, 22:39:59) 
+    Type "copyright", "credits" or "license" for more information.
+    IPython 0.13 -- An enhanced Interactive Python.
+
+    $ ipcluster
+    -> shows help message
