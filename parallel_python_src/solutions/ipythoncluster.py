@@ -94,8 +94,13 @@ def calc_pure_python(show_output):
     # create a Pool which will create Python processes
     start_time = datetime.datetime.now()
 
-    #async_result = c[:].map_async(calculate_z_serial_purepython, chunks)
+    # simple usage with DirectView
     async_result = c[:].map(calculate_z, chunks)
+
+    # Load balanced view (more efficient for us)
+    #lview = c.load_balanced_view()
+    #async_result = lview.map(calculate_z, chunks)
+
     # we get a list of lists back, one per chunk, so we have to
     # flatten them back together
     # return a list of lists of results
